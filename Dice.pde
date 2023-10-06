@@ -3,13 +3,13 @@ void setup()
   noLoop();
   background(0, 0, 0);
   size(460, 445);
-  int sum = 0;
+  int totalsum = 0;
 }
 void draw(){
   for(int y = 5; y<= 400; y+=55){
     for(int x = 5; x <= 400; x+=55){
       Die bob = new Die(x,y);
-      sum+=placeholder;
+      totalsum+=placeholder;
       bob.show();
       bob.roll();
       }
