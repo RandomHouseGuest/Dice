@@ -7,6 +7,7 @@ void setup()
   textSize(15);
 }
 void draw(){
+background(0, 128, 255);
   for(int y = 5; y<= 400; y+=55){
     for(int x = 5; x <= 400; x+=55){
       Die bob = new Die(x,y);
