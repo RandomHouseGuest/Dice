@@ -4,6 +4,7 @@ void setup()
   background(0, 128, 255);
   size(445, 460);
   textAlign(CENTER,CENTER);
+  textSize(15);
 }
 void draw(){
   for(int y = 5; y<= 400; y+=55){
