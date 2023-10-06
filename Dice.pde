@@ -9,7 +9,6 @@ void draw(){
   for(int y = 5; y<= 400; y+=55){
     for(int x = 5; x <= 400; x+=55){
       Die bob = new Die(x,y);
-      totalsum+=placeholder;
       bob.show();
       bob.roll();
       }
@@ -61,6 +60,7 @@ class Die{
     noStroke();
     fill(255,255,255);
     rect(myX,myY,50,50);
+    totalsum+=placeholder;
     text("Total: ", 450, 200);
     text(totalsum, 450, 225);
   }
