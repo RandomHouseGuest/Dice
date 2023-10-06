@@ -1,8 +1,8 @@
 void setup()
 {
   noLoop();
-  background(0, 0, 0);
-  size(460, 445);
+  background(0, 0, 255);
+  size(445, 460);
 
 }
 void draw(){
