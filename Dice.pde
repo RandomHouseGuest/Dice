@@ -55,10 +55,10 @@ class Die{
       ellipse(myX+40, myY+40, 10, 10);
       ellipse(myX+10, myY+25, 10, 10);
       ellipse(myX+40, myY+25, 10, 10);
+    }
       totalsum+=placeholder;
       text("Total: ", 200, 450);
       text(totalsum, 250, 450);
-    }
   }
   void show(){
     noStroke();
