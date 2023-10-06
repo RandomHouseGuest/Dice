@@ -1,7 +1,7 @@
 void setup()
 {
   noLoop();
-  background(0, 0, 255);
+  background(0, 128, 255);
   size(445, 460);
 
 }
@@ -57,7 +57,7 @@ class Die{
       ellipse(myX+40, myY+25, 10, 10);
       totalsum+=placeholder;
       text("Total: ", 200, 450);
-      text(totalsum, 225, 450);
+      text(totalsum, 250, 450);
     }
   }
   void show(){
