@@ -1,3 +1,4 @@
+int totalsum = 0;
 void setup()
 {
   noLoop();
@@ -15,6 +16,7 @@ void draw(){
       bob.roll();
       }
     }
+   text("Total: " + totalsum, 200, 450);
 }
 void mousePressed()
 {
@@ -28,7 +30,6 @@ class Die{
   }
   void roll(){
     fill(0, 0, 0);
-    int totalsum = 0;
     int placeholder = (int)(Math.random()*6)+1;
     if(placeholder == 1){
       ellipse(myX+25, myY+25, 10, 10);
@@ -59,7 +60,6 @@ class Die{
       ellipse(myX+40, myY+25, 10, 10);
     }
       totalsum+=placeholder;
-      text("Total: " + totalsum, 200, 450);
   }
   void show(){
     noStroke();
