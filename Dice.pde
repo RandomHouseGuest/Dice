@@ -17,11 +17,11 @@ void draw(){
       }
     }
    text("Total: " + totalsum, 200, 450);
+   totalsum = 0;
 }
 void mousePressed()
 {
   redraw();
-  totalsum = 0;
 }
 class Die{
   int myX, myY;
