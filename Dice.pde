@@ -21,6 +21,7 @@ void draw(){
 void mousePressed()
 {
   redraw();
+  totalsum = 0;
 }
 class Die{
   int myX, myY;
